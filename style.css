@@ -1,0 +1,143 @@
+.main{
+    width: 1280px;
+    height: 720px;
+    background: #121214;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    height: 68px;
+    width: 229px;
+    margin-top: 42px;
+    background: url(img/logo.png);
+}
+.texto{
+    height: 42px;
+    width: 334px;
+    margin-top: 73px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+
+}
+.frame{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 700px;
+    height: 194px;
+    margin-top: 61px;
+}
+.frame1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 7.4px;
+    padding-right: 7.4px;
+    width: 160px;
+    height: 194px;
+}
+.legenda{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #9C9C9C;
+    margin-top: 16px;
+    
+}
+.icon{
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+#icon1{
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    background: url(img/icon1.png);
+    max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+#icon2{
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    background: url(img/icon2.png);
+    -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+#icon3{
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    background: url(img/icon3.png);
+    -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+#icon4{
+    height: 160px;
+    width: 160px;
+    border-radius: 8px;
+    background: #1E1E20;
+}
+#icon4 img{
+    width: 64.67px;
+    height: 64.67px;
+    margin-left: 47.1px;
+    margin-top: 47.9px;
+}
+.icon:hover{
+    border: 1.5px solid #FFFFFF;
+}
+#icon1:hover{
+    -moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+#icon2:hover{
+    -moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+#icon3:hover{
+    -moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+.perfil{
+    margin-top:102px;
+    height: 50px;
+    width: 206px;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 8px;
+}
+#legenda2{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color:#FFFFFF;
+    margin:14px 44px 15px 44px; 
+    height:21px;
+}
+.perfil:hover{
+    background: #FFFFFF;
+}
+.perfil:hover #legenda2{
+    color: black;
+} 
